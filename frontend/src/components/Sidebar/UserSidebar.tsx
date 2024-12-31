@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import SidebarLinkGroup from './SidebarLinkGroup';
 // import Logo from '../../images/logo/logo.svg';
-import Logo from '../../images/logo/Isure-media-logo.webp';
+
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -66,8 +66,7 @@ const UserSidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       <div className='flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5'>
         <NavLink to='/'>
           <img
-            src={Logo}
-            alt='Logo'
+            src="https://isuremedia.com/wp-content/uploads/2022/07/isurelogo-320by110.-1.webp"
             width='148'
             height='39'
           />
